@@ -1,0 +1,39 @@
+background(193, 235, 194);
+strokeWeight(2);
+
+fill(57, 219, 240);
+stroke(113, 100, 217);
+ellipse(150, 70, 60, 120);  // left ear
+ellipse(240, 70, 60, 120);  // right ear
+
+ellipse(200, 170, 150, 150); // face
+
+fill(0, 0, 0);
+noStroke();
+var eyes =25;
+ellipse(170, 150, eyes, eyes); // left eye
+ellipse(230, 150, eyes, eyes); // right eye
+
+stroke(113, 100, 217);
+fill(240, 245, 245);
+var htooth = 30;
+rect(185, 200, 15, htooth);  // left tooth
+rect(200, 200, 15, htooth);  // right tooth
+stroke(222, 13, 13);
+
+line(150, 200, 250, 200); // mouth
+
+stroke(10, 28, 82); //eyebrow
+var x1 = 142;
+var x2 = 118;
+line(140, x1, 168, x2);
+line(260, x1, 232, x2);
+
+noStroke();
+fill(236, 164, 242);
+ellipse(200, 177, 15, 25);
+
+strokeWeight(3);
+textFont("Arial", 50);
+text("S o r r y !",96,350);
+
